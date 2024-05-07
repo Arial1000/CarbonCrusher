@@ -20,7 +20,9 @@
     </v-row>
   </v-container>
     
-   <footer class="bg-grey-lighten-1 footer">footer</footer>
+  <footer class="bg-grey-lighten-1 footer">
+     <p>2024 — KDSD, LLC</p> 
+    </footer>
 </template>
 
 <style>

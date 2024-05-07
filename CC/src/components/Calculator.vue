@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-col>
-   <v-sheet class="mx-auto" width="300">
+   <v-sheet class="mx-auto" width="600">
     
     <v-form @submit.prevent>
         <v-select
@@ -75,7 +75,7 @@
       <v-btn @click="ResultPage" class="mt-2" type="submit" block>Submit </v-btn>
     </v-form>
   </v-sheet>
-  <p>Result: {{ Results }}{{ Rating }} </p>
+  <p>Result: {{ Results }} {{ Rating }} </p>
 </v-col>
   <nav>
         
